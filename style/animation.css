@@ -3,9 +3,9 @@
     animation-duration: 3s;  
 }
 
-.container1  {
+.container1 {
     animation-name: changePosition;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 
@@ -20,11 +20,12 @@
 }
 
 @keyframes changePosition {
-    from {
-        margin-left: 50px;
+    0% {
+        transform: translateX(50px);
     }
 
-    to {
-        margin-left: 5%;
+    100% {
+        transform: translateX(0);
     }
+        
 }
