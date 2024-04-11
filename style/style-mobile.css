@@ -1,0 +1,91 @@
+@media screen and (max-width: 1300px){
+    .center{
+        width: 90%;
+    }
+    .container3 .text-left{
+        float: none;
+        width: 100%;
+    }
+    .container3 .text-right{
+        float: none;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .container3 .sub_title{
+        padding-top: 80px;
+    }
+    footer .footer_logo{
+        float: none;
+    }
+    footer .research_block, footer .services_block, footer .legal_block{
+        margin-top: 20px;
+    }
+    footer .legal_block{
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .container1 h1{
+        width: 100%;
+    }
+    footer .social-links .social_left{
+        float: none;
+        text-align: left;
+    }
+    footer .social-links .social_right{
+        float: none;
+        text-align: left;
+        margin-top: 20px;
+    }
+    footer .social-links .social_right a:first-child{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container1 h1{
+        font-size: 72px;
+        padding-top: 100px;
+        margin-bottom: 100px;
+    }
+    footer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    footer .research_block, footer .services_block, footer .legal_block{
+        float: none;
+    }
+    footer .social-links{
+        padding-top: 80px;
+    }
+    footer .social-links .social_right a{
+        margin-right: 32px;
+        margin-left: 0;
+        line-height: 50px;
+    }
+    footer .social-links .social_left a{
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .container1 h1{
+        font-size: 38px;
+        padding-top: 60px;
+        margin-bottom: 60px;
+    }
+    .container1 .logo, .container1 .burger{
+        margin-top: 20px;
+    }
+    .container3 .text-right p{
+        font-size: 30px;
+    }
+    .container3 .text-left hr{
+        margin-top: 50px;
+    }
+    .container3 .description{
+        margin-bottom: 50px;
+    }
+}
