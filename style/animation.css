@@ -1,11 +1,11 @@
 .burger, .logo, .container2 {
-    animation-name: becomeVisible, changePosition;
+    animation-name: becomeVisible;
     animation-duration: 3s;  
 }
 
-.container1 h1 {
+.container1  {
     animation-name: changePosition;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 
@@ -21,10 +21,10 @@
 
 @keyframes changePosition {
     from {
-        margin-left: 500px;
+        margin-left: 50px;
     }
 
     to {
-        margin-left: 0;
+        margin-left: 5%;
     }
 }
